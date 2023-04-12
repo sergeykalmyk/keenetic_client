@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "keenetic_client"
+version = "1.0.0"
+authors = [
+  { name="Sergey F. Kalmyk", email="skfdev@gmail.com" },
+]
+description = "Keenetic router client library"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sergeykalmyk/keenetic_client"
+"Bug Tracker" = "https://github.com/sergeykalmyk/keenetic_client/issues"
